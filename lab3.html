@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab 3</title>
+</head>
+<body>
+    <h3>Try input 1,2,3,4,5,6,7</h3>
+    <label for="inp">Input</label>
+    <input type="text" id="inp">
+    <button onclick="myFunction()">Submit</button>
+    <h3>Result:</h3>
+    <p id="result"></p>
+    
+    <script>
+        function myFunction(){
+            var array = document.getElementById('inp').value.split(',');
+            var r = array[0];
+            var r2 = Number(array[1]) + Number(array[2]) + Number(array[3]);
+            var r3 = array[4] * array[4];
+            var r4 = array[6] * array[6];
+            var array2 = [r, r2, r3, r4];
+            array2.toString();
+            document.getElementById('result').innerHTML = array2;
+        }
+    </script>
+</body>
+</html>

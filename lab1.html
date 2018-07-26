@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lab 1</title>
+</head>
+<body>
+    Please press F12 and choose Console tab to see result
+    <script>
+        for (var index = 30; index < 301; index++) {
+            if (index % 7 == 0) console.log('abc');
+            if (index % 13 == 0) console.log('xyz');
+            if (index % 7 == 0 && index % 13 == 0) console.log('a-z');
+            if (index % 7 != 0 && index % 13 != 0) console.log(index);
+        }
+    </script>
+</body>
+</html>
