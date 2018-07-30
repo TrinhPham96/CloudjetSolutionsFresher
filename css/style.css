@@ -1,0 +1,357 @@
+body{
+    font-family: montserrat;
+}
+.header{
+    height: 110px;
+    position: fixed;
+    width: 100%;
+    line-height: 110px;
+    z-index: 999;
+}
+.resizeHeader{
+    background-color: rgba(0,0,0,.87);
+    height: 60px;
+    transition: all .4s ease;
+    line-height: 60px;
+}
+.headLeft{
+    float: left;
+}
+.slider{
+    height: 100vh;
+    position: relative;
+    display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  transform: translateZ(5px);
+  background-image: url("../img/bg_pattern_1.jpg");
+}
+.slide1{
+    background-image: url('../img/bg_pattern_1.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.headRight{
+    float: right;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.menu{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.menu > li, .menu>li.dropdown{
+    display: inline-block;
+    padding-left: 3px;
+    letter-spacing: .01em;
+    font-weight: 700;
+    margin-right: 12px;
+    line-height: 24px;
+    font-size: 13px;
+}
+.link{
+    color: whitesmoke;
+    opacity: .6;
+    font-family: montserrat;
+    padding-right: 21px;
+}
+.link:hover{
+    color: white;
+    opacity: .8;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+.active{
+    opacity: 1;
+}
+.myBtn{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background: transparent;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+}
+.myBtn:hover{
+    opacity: 1;
+    background: white;
+    color: black;
+    font-weight: 700;
+}
+.s1LeftRight{
+    margin-top: 15px;
+    margin-left: -28px;
+}
+nav.mega > .container{
+    padding: 50px 60px;
+    line-height: 40px;
+}
+nav.mega{
+    position: fixed;
+    overflow: hidden;
+    background: white;
+    height: 450px;
+    min-width: 190px;
+    margin-top: 20px;
+    left: 7%;
+    right: 7%;
+    max-height: 0;
+}
+li.mega:hover nav.mega{
+    max-height: none;
+}
+p.text{
+    font-size: 89%;
+    line-height: 17px;
+    opacity: .7;
+    text-transform: none;
+    margin: 0;
+    font-family: Arial,sans-serif!important;
+}
+.container .row > .col-md-4{
+    font-family: montserrat;
+    padding-left: 25px;
+}
+.container .row > .col-md-8{
+    font-size: 11px;
+}
+h2.h2{
+    font-size: 28px;
+    font-weight: lighter;
+    text-transform: none;
+    opacity: .7;
+    line-height: 40px;
+}
+h6.heading{
+    font-size: 12px;
+    font-weight: 600;
+    font-family: montserrat;
+    opacity: .8;
+}
+h6.h6{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.column > li > a{
+    color: black;
+    opacity: .5;
+}
+.column > li > a:hover{
+    text-decoration: none;
+    opacity: .8;
+}
+.btn-black{
+    background: black;
+    color: white;
+    margin-top: 35px;
+    font-size: 13px;
+}
+.btn-black:hover{
+    opacity: .8;
+}
+.slide-typo{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    height: 100%;
+    padding: 5%;
+}
+.slide-typo > h1{
+    color: white;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: montserrat;
+    text-align: center;
+}
+.slide-typo > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    font-weight: 600;
+    opacity: .6;
+    position: absolute;
+    margin-left: 40%;
+}
+.slide-typo > a:hover{
+    opacity: 1;
+}
+.ipad1{
+    position: absolute;
+    left: 30%;
+    margin-top: 6%;
+}
+.section{
+    position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1;
+    padding: 5%;
+    letter-spacing: .5px;
+    text-align: center;
+}
+.section2{
+    width: 68%;
+    margin-left: 15%;
+}
+.section2 h6{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+.section2 h1{
+    font-weight: 100;
+    font-size: 35px;
+    font-family: montserrat;
+    font-size: 33px;
+    line-height: 44px;
+    letter-spacing: -.08px;
+}
+img.arr-down{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.ipad_2{
+    display: inline-block;
+    margin-top: 80px;
+    margin-right: 8%;
+}
+.section2Main{
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+}
+.right{
+    display: inline-block;
+    text-align: initial;
+    margin-top: 25%;
+}
+.right>h1{
+    font-family: montserrat;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 40px;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: -.08px;
+}
+.right>h6{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 5%;
+    font-size: 14px;
+}
+.right>p{
+    opacity: .6;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+.right > .p2{
+    font-size: 13px;
+}
+.section3{
+    background-color:#f0f0f0;
+    overflow: hidden;
+    display: flex; 
+}
+.section3Main{
+    position: absolute;
+    margin: 7% 35%;
+    text-align: center;
+}
+.section3Main>h6{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section3Main>h1{
+    font-size: 33px;
+    font-weight: 100;
+}
+.btn-ex{
+    border-radius: 30px;
+    background-color: #6D5CAE;
+    width: 120px;
+    height: 44px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+    margin-top: 10%;
+}
+.section3>.iphone{
+    transform: translateY(-6.89847px);
+    position: absolute;
+    margin-top: 32%;
+    margin-left: 42.5%;
+    z-index: 2;
+    transition: transform 1s ease;
+}
+.section4{
+    margin-top: 10%;
+    text-align: center;
+    opacity: .8;
+}
+.section4>.h5{
+    margin-top: 3%;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+.section4>.h52{
+    font-size: 15px;
+}
+.section4>h1{
+    font-size: 30px;
+}
+.section4 > .container{
+    margin-top: 5%;
+    width: 60%;
+    text-align: start;
+}
+.section4 > h6.h6{
+    margin-top: 5%;
+}
+.section4 > h6.h62{
+    font-size: 12px;
+}
+.section5{
+    background-color: #2C2C2C;
+    padding: 10%;
+    color: white;
+    text-align: center;
+}
+.section5>h1{
+    font-size: 30px;
+    margin-left: 25%;
+    width: 50%;
+}
+.section5>img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section5>span{
+    font-size: 13px;
+}
+footer{
+    padding: 5%;
+}
+footer>img{
+    display: block;
+}
+
